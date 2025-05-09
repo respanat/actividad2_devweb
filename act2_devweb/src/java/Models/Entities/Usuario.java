@@ -1,18 +1,18 @@
 package Models.Entities;
 
 public class Usuario {
-    private int id;
+    private Integer id;
     private String username;
     private String password;
     private String nombre;
     private String email;
 
-    // Constructor por defecto
+    // Constructor vacío
     public Usuario() {
     }
 
     // Constructor con todos los campos
-    public Usuario(int id, String username, String password, String nombre, String email) {
+    public Usuario(Integer id, String username, String password, String nombre, String email) {
         this.id = id;
         this.username = username;
         this.password = password;
@@ -21,11 +21,11 @@ public class Usuario {
     }
 
     // Getters y setters para todos los atributos
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
